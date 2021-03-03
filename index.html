@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reel Maker Prototype</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo__container">
+        <a href="index.html" class="logo"
+          ><img
+            src="./images/JPaesano-Logo-Large-Alt-2.png"
+            alt="Reel Maker Logo"
+        /></a>
+      </div>
+      <div class="navigation">
+        <nav>
+          <ul class="manin__menu_ul">
+            <li class="list__item"><a href="">Tracking</a></li>
+            <li class="list__item"><a href="">Tracks</a></li>
+            <li class="list__item"><a href="">Maker</a></li>
+            <li class="list__item"><a href="">Reels</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="btn__container">
+        <button class="mdc-button mdc-button--raised">
+          <span class="mdc-button__ripple"></span>
+          <i class="material-icons mdc-button__icon" aria-hidden="true"
+            >create_new_folder</i
+          >
+          <span class="mdc-button__label">New Folder</span>
+        </button>
+
+        <button class="mdc-button mdc-button--raised">
+          <span class="mdc-button__ripple"></span>
+          <i class="material-icons mdc-button__icon" aria-hidden="true"
+            >file_upload</i
+          >
+          <span class="mdc-button__label">Upload Tracks</span>
+        </button>
+      </div>
+
+      <div class="tracks__container">
+        <div class="track__folders">
+          <div class="folder">
+            <div class="icon__holder">
+              <i class="material-icons mdc-button__icon" aria-hidden="true"
+                >folder</i
+              >
+            </div>
+            <div class="text__and_menu">
+              <div class="folder__text_container">
+                <h3 class="folder__title">Unfiled</h3>
+                <div class="num__of_tracks_container">
+                  <span class="num__of_tracks">361</span> tracks
+                </div>
+              </div>
+              <div class="kebab__menu_container">
+                <i class="material-icons mdc-button__icon" aria-hidden="true"
+                  >more_vert</i
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="folder">
+            <div class="icon__holder">
+              <i class="material-icons mdc-button__icon" aria-hidden="true"
+                >folder</i
+              >
+            </div>
+            <div class="text__and_menu">
+              <div class="folder__text_container">
+                <h3 class="folder__title">Unfiled</h3>
+                <div class="num__of_tracks_container">
+                  <span class="num__of_tracks">361</span> tracks
+                </div>
+              </div>
+              <div class="kebab__menu_container">
+                <i class="material-icons mdc-button__icon" aria-hidden="true"
+                  >more_vert</i
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="folder">
+            <div class="icon__holder">
+              <i class="material-icons mdc-button__icon" aria-hidden="true"
+                >folder</i
+              >
+            </div>
+            <div class="text__and_menu">
+              <div class="folder__text_container">
+                <h3 class="folder__title">Unfiled</h3>
+                <div class="num__of_tracks_container">
+                  <span class="num__of_tracks">361</span> tracks
+                </div>
+              </div>
+              <div class="kebab__menu_container">
+                <i class="material-icons mdc-button__icon" aria-hidden="true"
+                  >more_vert</i
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="track__search_container">Search...</div>
+      </div>
+    </main>
+  </body>
+</html>
