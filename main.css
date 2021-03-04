@@ -71,12 +71,12 @@ li.list__item:last-child {
     margin: .7rem .7rem .7rem 0;
 }
 
-.tracks__container {
+.main__container {
     display: flex;
     justify-content: space-between;
 }
 
-.track__folders {
+.left__section {
     width: 60%;
 }
 
@@ -84,7 +84,7 @@ li.list__item:last-child {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 15px;
     transition: 0.3s all;
 }
 
@@ -129,6 +129,90 @@ li.list__item:last-child {
     font-size: 0.8rem;
 }
 
-.kebab__menu_container{
+.kebab__menu_container {
     color: gray;
+    cursor: pointer;
+}
+
+.right__section {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.track__search_and_kebab_container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    height: 100%;
+    padding: 1em;
+}
+
+.search__input_contaner {
+    flex: 1;
+}
+
+.search__input_contaner input {
+  width: 100%;
+  padding: .6em 2.4em;
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  background-color: rgb(234, 236, 239);
+  border: 1px solid rgba(74, 116, 165, 0.3);
+}
+
+.search__icon {
+    position: absolute;
+    left: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(88, 64, 212);
+}
+
+.track__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.mdc-form-field {
+    flex: 1;
+}
+
+.track {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song {
+    flex: 1;
+}
+
+.play__button {
+    color: #6200ee;
+    margin: 0 10px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.settings {
+    color: #6200ee;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.track__duration {
+    color: gray;
+    font-size: .7rem;
 }
