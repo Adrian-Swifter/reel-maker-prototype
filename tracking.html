@@ -18,7 +18,7 @@
     <script src="index.js" defer></script>
   </head>
   <body>
-    <header>
+    <header class="main__header">
       <div class="logo__container">
         <a href="index.html" class="logo"
           ><img
@@ -39,13 +39,69 @@
     </header>
     <main class="container">
       <div class="btn__container">
-          asfasfiasfi
+        <header>
+          <h3>Recent Activity</h3>
+          <div class="date__picker_container">
+            <label>
+              Start date:
+              <input type="date" name="start_date" />
+            </label>
+            <label>
+              End date:
+              <input type="date" name="end_date" />
+            </label>
+          </div>
+        </header>
       </div>
 
       <div class="main__container">
-        <div class="left__section"></div>
+        <div class="left__section">
+          <button class="accordion">Section 1</button>
+          <div class="panel">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <button class="accordion">Section 2</button>
+          <div class="panel">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <button class="accordion">Section 3</button>
+          <div class="panel">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
         <div class="right__section">
-          asdasdasdasdasdsad
+          <h2>Useful Stats</h2>
+          <div class="stats">
+            <div class="stat">
+              <h3>Uploaded tracks</h3>
+              <div class="num__of_stat">1298</div>
+            </div>
+            <div class="stat">
+              <h3>Uploaded tracks</h3>
+              <div class="num__of_stat">1298</div>
+            </div>
+            <div class="stat">
+              <h3>Uploaded tracks</h3>
+              <div class="num__of_stat">1298</div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
