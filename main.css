@@ -382,3 +382,49 @@ li.list__item:last-child {
 .composed__description {
   flex: 2;
 }
+
+.maker__container {
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.maker__header ul, .maker__header ul li {
+  display: flex;
+}
+
+.maker__header ul li:not(:last-child) {
+  flex: 1;
+  align-items: center;
+}
+
+.maker__header ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: inherit;
+  padding: 20px;
+}
+
+.maker__header ul li a:hover {
+  background-color: #eee;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: gray;
+}
+
+.number__icon {
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  color: white;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
